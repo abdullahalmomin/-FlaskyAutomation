@@ -29,9 +29,11 @@ print(GetAllUsers.text)
 Json_Response = GetAllUsers.json()
 print(Json_Response)
 
+
+
 # Create a new User
 url = "http://localhost:8080/api/users"
-data = {"username": "Anisul1",
+data = {"username": "Anisul111",
         "password": "Anisul",
         "firstname": "Islam",
         "lastname": "Rubel",
@@ -43,6 +45,8 @@ print(r2.json())
 code = r2.status_code
 print(code)
 assert code == 201, 'Code does not match'
+
+
 
 # Update a new User
 response3 = requests.get('http://localhost:8080/api/auth/token', auth=('a', 'a'))
@@ -56,7 +60,7 @@ print(token1)
 # Update an user details
 url = "http://localhost:8080/api/users/a"
 payload = {
-    "firstname": "Anis1",
+    "firstname": "Anis111",
     "lastname": "Islam"
 }
 headers = {'Content-type': 'application/json', 'Token': token1}

@@ -9,12 +9,10 @@ Suite Teardown    Closing Browser
 
 *** Test Cases ***
 Verify the Login Page
-#    Starting Browser and Maximize
     Go to the login page
     Location Should Be  ${URL_LoginPage}
 
 Verify Login Fails - Wrong Username
-#    Starting Browser and Maximize
     Go to the login page
     Input Text    ${TxtBox_Username}    Abd
     Input Text    ${TxtBox_Password}    abc
@@ -22,7 +20,6 @@ Verify Login Fails - Wrong Username
     Page Should Contain  ${login_error_msg}
 
 Verify Login Fails - Wrong Password
-#    Starting Browser and Maximize
     Go to the login page
     Input Text    ${TxtBox_Username}    1
     Input Text    ${TxtBox_Password}    232
@@ -30,7 +27,6 @@ Verify Login Fails - Wrong Password
     Page Should Contain  ${login_error_msg}
 
 Verify Login Fails - Wrong Username and wrong Password
-#    Starting Browser and Maximize
     Go to the login page
     Input Text    ${TxtBox_Username}    132
     Input Text    ${TxtBox_Password}    232
@@ -39,7 +35,6 @@ Verify Login Fails - Wrong Username and wrong Password
 
 
 Verify Login Fails - Blank Username
-#    Starting Browser and Maximize
     Go to the login page
 #    Input Text    ${TxtBox_Username}
     Input Text    ${TxtBox_Password}    abc
@@ -47,7 +42,6 @@ Verify Login Fails - Blank Username
     Location Should Be  ${URL_LoginPage}
 
 Verify Login Fails - Blank Password
-#    Starting Browser and Maximize
     Go to the login page
     Input Text    ${TxtBox_Username}    1
 #    Input Text    ${TxtBox_Password}    abc
@@ -55,7 +49,6 @@ Verify Login Fails - Blank Password
     Location Should Be  ${URL_LoginPage}
 
 Verify Login Fails - Blank username and blank Password
-#    Starting Browser and Maximize
     Go to the login page
 #    Input Text    ${TxtBox_Username}    1
 #    Input Text    ${TxtBox_Password}    abc
@@ -63,7 +56,6 @@ Verify Login Fails - Blank username and blank Password
     Location Should Be  ${URL_LoginPage}
 
 Verify Login Fails - valid credential
-#    Starting Browser and Maximize
     Go to the login page
     Input Text    ${TxtBox_Username}    1
     Input Text    ${TxtBox_Password}    1

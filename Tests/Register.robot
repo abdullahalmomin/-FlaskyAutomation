@@ -7,7 +7,7 @@ Suite Setup    Starting Browser and Maximize
 Suite Teardown    Closing Browser
 
 *** Variables ***
-${UserName}    SH1
+${UserName}    SH112
 
 
 *** Test Cases ***
@@ -29,7 +29,7 @@ Create Duplicate User
     Input Text    id:password    12
     Input Text    id:firstname    12
     Input Text    id:lastname    12
-    Input Text    id:phone    12
+    Input Text    id:phone    121
     Click Button    ${Btn_Register}
     Page Should Contain    is already registered.
 
