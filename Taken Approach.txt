@@ -1,0 +1,18 @@
+Description about taken approach and potential gaps in application?
+
+At first I first tried to install the application from github. 
+I used Doker to install and run the app properly. 
+After running the app from docker I tested the Login and Register functionality thoroughly. 
+After that, I went to the API route and found no data. 
+Then I read the instructions properly and try to get the data using postman. 
+It took a little bit time to retrieve all the data form the API routes. 
+
+Finally I started writing automation script using Robot framework and wrote some test case. 
+For API testing I used python and requests library. 
+I was not much aware about unit testing that’s why I had to study a little about 
+Unit testing then I tried to write some Unit test case.
+I know I could not implement automation scripts in a proper way because of time constrain.
+In this project I could have used data driven approach, Implement page object model, 
+add some negative test cases while testing APIs and may more. 
+I know you I was given enough time but it my bad. 
+
