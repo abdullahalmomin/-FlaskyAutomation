@@ -1,0 +1,16 @@
+
+Tell us what improvement would you propose for the app 
+I’ve got some observations to share
+I found no validation method was implemented in the input field while creating a user.
+The Username, Password, First name, Last name, Phone number takes all types of data. 
+For example in the password field some conditions could be added like
+	Password must me at least 8 characters long
+	Max length of password should not exceed 12 character
+	A lowercase letter
+	A capital (uppercase) letter
+	A number
+	A special character
+Or In the phone number field it take all types of characters 
+Phone number should be unique for each user. Normally Phone number should not accept any character other than + and number (0-9). And if the user tries to press other keys then he/she must see a warring message to write the above character. Finally the phone number should have a maximum length.
+
+

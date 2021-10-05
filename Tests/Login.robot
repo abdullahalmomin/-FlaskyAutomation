@@ -61,5 +61,3 @@ Verify Login Fails - valid credential
     Input Text    ${TxtBox_Password}    1
     Click Button    ${Btn_Login}
     Location Should Be  http://localhost:8080/user
-
-

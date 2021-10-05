@@ -7,7 +7,7 @@ Suite Setup    Starting Browser and Maximize
 Suite Teardown    Closing Browser
 
 *** Variables ***
-${UserName}    SH112
+${UserName}    SH11
 
 
 *** Test Cases ***
