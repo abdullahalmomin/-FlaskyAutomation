@@ -48,7 +48,9 @@ what libraries to use, how does it work in couple of years, how to make it easy 
 What are the main points to consider? 
 
 
-The test automation framework is a set of detailed guidelines that one needs to follow while writing and running tests. For example, coding standards, procedures, test-data reporting, etc. There are six test automation framework that you can be used for automation testing
+The test automation framework is a set of detailed guidelines that one needs to follow while writing and running tests.
+For example, coding standards, procedures, test-data reporting, etc. 
+There are six test automation framework that you can be used for automation testing
 *	Data-driven Test Framework
 *	Modular Based Testing Framework
 *	Keyword-driven Test Framework
@@ -65,9 +67,13 @@ While preparing strategy about automation I also keep in mind the following thin
 *	Execution plan
 *	Review & analysis 
 	
-At first I try to understand the context of the project and try to understand what type of testing is required then I decide what libraries to choose. In recent times I’ve used mostly Keyword driven Test Framework (RF). I used data driven approach in this framework also. And I found it very easy. 
+At first I try to understand the context of the project and try to understand what type of testing is required then 
+I decide what libraries to choose. In recent times I’ve used mostly Keyword driven Test Framework (RF). 
+I used data driven approach in this framework also. And I found it very easy. 
 In the project I also could have applied data driven approach but did not due to time contrarians.  
-I’ve always been advised to remain focused on maintaining the effectiveness of regression tests. This can be achieved by periodically cleaning older test cases and categorizing the current ones. You should remain clear on your requirements and whether old test cases are effective to keep.
+I’ve always been advised to remain focused on maintaining the effectiveness of regression tests. 
+This can be achieved by periodically cleaning older test cases and categorizing the current ones. 
+You should remain clear on your requirements and whether old test cases are effective to keep.
 Test scripts should be minimal with more outcomes. If you can make smaller test cases, automation becomes easier.
 
 Robot framework libraries I used
@@ -85,9 +91,16 @@ Robot framework libraries I used
 Code testability, how do you enforce it? 
 *	Testability is a leading characteristics of clean code.
 *	I try to break code in to pure functions, where input -> output with no side effect.
-*	Try to follow Single Responsibility Principle. This principle can be applied at both class and method levels and to some extent at the package level. The Single Responsibility Principle does not state that a module should only do one thing. It states it should have one and only one reason to change.
-*	Dependency Inversion Principle (DIP) ->High-level modules should not depend on low-level modules; both should depend on abstractions. Abstractions should not depend on details. Details should depend upon abstractions.
-*	Law of Demeter (LoD) Another “law” which is useful for keeping the code decoupled and testable is the Law of Demeter. This principle states the following: Each unit should have only limited knowledge about other units: only units “closely” related to the current unit. Each unit should only talk to its friends; don’t talk to strangers. Only talk to your immediate friends.
+*	Try to follow Single Responsibility Principle. This principle can be applied at both class and 
+	method levels and to some extent at the package level. The Single Responsibility Principle does not 
+	state that a module should only do one thing. It states it should have one and only one reason to change.
+*	Dependency Inversion Principle (DIP) ->High-level modules should not depend on low-level modules; 
+	both should depend on abstractions. Abstractions should not depend on details. 
+	Details should depend upon abstractions.
+*	Law of Demeter (LoD) Another “law” which is useful for keeping the code decoupled and testable 
+	is the Law of Demeter. This principle states the following: Each unit should have only limited knowledge 
+	about other units: only units “closely” related to the current unit. Each unit should only talk to its friends; 
+	don’t talk to strangers. Only talk to your immediate friends.
 *	Interface Segregation Principle (ISP) -> No client should be forced to depend on methods it does not use.
 
 
