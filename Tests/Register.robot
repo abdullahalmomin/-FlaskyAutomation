@@ -7,7 +7,7 @@ Suite Setup    Starting Browser and Maximize
 Suite Teardown    Closing Browser
 
 *** Variables ***
-${UserName}    SH11
+${UserName}    Sharif
 
 
 *** Test Cases ***
@@ -90,3 +90,4 @@ Blank Phone Submit
 #    Input Text    id:phone    12345678
     Click Button    ${Btn_Register}
     Location Should Be    ${URL_register}
+    Close Browser
