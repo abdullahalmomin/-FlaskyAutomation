@@ -7,7 +7,8 @@ Suite Setup    Starting Browser and Maximize
 Suite Teardown    Closing Browser
 
 *** Variables ***
-${UserName}    Sharif
+#${UserName}    Sharif
+${UserName}    Generate Random String    12    [LOWER]
 
 
 *** Test Cases ***
